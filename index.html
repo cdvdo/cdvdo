@@ -252,6 +252,8 @@
     min-height:200px;
     display:flex; flex-direction:column; justify-content:space-between;
     transition:transform .12s steps(2), box-shadow .12s steps(2);
+    text-decoration:none;
+    color:inherit;
   }
   .release:hover{ transform:translate(-3px,-3px); box-shadow:8px 8px 0 var(--ink); }
   .release .r-year{ font-family:'Space Mono', monospace; font-size:11px; color:var(--dim); }
@@ -469,7 +471,7 @@
       <span class="num">01</span><span class="name">ABOUT</span><span class="meta">BIO</span><span class="play">PLAY ▸</span>
     </a>
     <a href="#sounds" class="track">
-      <span class="num">02</span><span class="name">SOUNDS</span><span class="meta">DISCOGRAPHY</span><span class="play">PLAY ▸</span>
+      <span class="num">02</span><span class="name">SOUNDS</span><span class="meta">FAV NOISES</span><span class="play">PLAY ▸</span>
     </a>
     <a href="#contact" class="track">
       <span class="num">03</span><span class="name">CONTACT</span><span class="meta">LINKS</span><span class="play">PLAY ▸</span>
@@ -495,9 +497,9 @@
 
   <section id="sounds">
     <span class="eyebrow reveal">SOUNDS — 02</span>
-    <h2 class="reveal">DISCOGRAPHY</h2>
+    <h2 class="reveal" style="font-family:'VT323', monospace; font-size:clamp(30px, 5vw, 48px); letter-spacing:0.01em;">내가 가장 좋아하는 노이즈</h2>
     <div class="release-grid reveal">
-      <div class="release"><span class="r-year">2026</span><div><div class="r-name">DISC ROT</div><div class="r-type">SINGLE</div></div></div>
+      <a class="release" href="https://www.youtube.com/watch?v=uFuyTxQjTVw" target="_blank" rel="noopener"><span class="r-year">2026</span><div><div class="r-name">PARA</div><div class="r-type">BY NAJUNGAE ▸ WATCH</div></div></a>
       <div class="release"><span class="r-year">2025</span><div><div class="r-name">BUFFERING</div><div class="r-type">EP · 5 TRACKS</div></div></div>
       <div class="release"><span class="r-year">2024</span><div><div class="r-name">READ ERROR</div><div class="r-type">ALBUM · 9 TRACKS</div></div></div>
       <div class="release"><span class="r-year">2023</span><div><div class="r-name">IRIDESCENCE</div><div class="r-type">SINGLE</div></div></div>
